@@ -1,0 +1,150 @@
+html{
+	background-color: rgb(238,238,238);
+}
+
+body{
+	font-family: 'Signika', sans-serif;
+}
+
+.img-responsive{
+	max-width: 100%;
+}
+
+.float-left{
+	float: left;
+	max-width: 100%;
+}
+
+.float-right{
+	float: right;
+	max-width: 100%;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.main-color{
+	color: rgba(182,40,68,0.5);
+}
+
+.white{
+	background-color: white;
+}
+
+.margen-derecha{
+	padding-right: 3vw;
+}
+
+.margen-arriba{
+	padding-top: 5vh;
+}
+
+.interlineado{
+	margin-top: 2vh;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: star;
+	src: url("MF Dings.woff");
+}
+
+/*HEADER*/
+
+.imagen, header h1{
+	text-align: center;
+	padding:0 0 2vh 0;
+	margin:0;
+}
+
+header .container{
+	margin-bottom: 0.5vh;
+}
+
+header img{
+	margin-top: 5vh;
+	border-radius: 50%;
+	border: 5px solid rgb(238,238,238);
+
+}
+
+/*SECTION*/
+
+.titulo{
+	font-size: 165%;
+}
+
+.year{
+	font-size: 80%;
+}
+
+.cuadro{
+	max-width: 82%;
+	background-color: rgba(182,40,68,0.5);
+	padding: 0.5vh 1vw 1vh 1vw;
+}
+
+.descripcion{
+	color: rgb(538,538,538);
+	font-size: 90%;
+}
+
+.star{
+	font-family: star;
+	font-size: 5vh;
+	border-bottom: 2px solid rgb(122,122,122);
+}
+
+.skill-bar{
+	background-color: rgba(182,40,68,0.5);
+	margin-bottom: 1%;
+	color: rgb(238,238,238);
+	padding-left: 2%;
+}
+
+.level1{
+	margin-right: 1vw;
+}
+
+.level2{
+	margin-right: 2vw;
+}
+
+.level3{
+	margin-right: 4vw;
+}
+
+.level4{
+	margin-right: 8vw;
+}
+
+.level5{
+	margin-right: 11vw;
+}
+
+.bottom{
+	font-size: 80%;
+	padding: 0% 15% 5% 10%;
+	text-align: right;
+	margin-top: 0.5vh;
+
+}
+
+.linea{
+	border-bottom: 1px solid black;
+	margin-top: 5%;
+}
+
+.lineatop{
+	border-bottom: 160px solid rgb(238,238,238);
+	margin-bottom: -13%;
+}
+
+.lineabot{
+	border-bottom: 160px solid rgb(238,238,238);
+	margin-bottom: -18%;
+}
